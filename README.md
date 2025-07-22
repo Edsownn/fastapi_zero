@@ -1,6 +1,9 @@
 # FastAPI Zero
 
-Este projeto é uma API construída com [FastAPI](https://fastapi.tiangolo.com/).
+Este projeto é uma API construída com [FastAPI], com base no curso do Eduardo Mendes
+
+https://fastapidozero.dunossauro.com/
+
 
 ## Como rodar
 
@@ -18,7 +21,7 @@ Este projeto é uma API construída com [FastAPI](https://fastapi.tiangolo.com/)
 
 - `main.py`: Ponto de entrada da aplicação.
 - `app/`: Módulos da API.
-- `requirements.txt`: Dependências do projeto.
+- `pyproject.toml`: Dependências do projeto.
 
 ## Endpoints
 
