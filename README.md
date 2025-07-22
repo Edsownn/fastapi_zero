@@ -1,27 +1,34 @@
 # FastAPI Zero
 
-Este projeto é uma API construída com [FastAPI], com base no curso do Eduardo Mendes
+Este projeto é uma API construída com [FastAPI], baseada no curso do Eduardo Mendes.
 
-https://fastapidozero.dunossauro.com/
-
+Site do curso: https://fastapidozero.dunossauro.com/
 
 ## Como rodar
 
-1. Instale as dependências:
+1. Instale o Poetry (se ainda não tiver):
    ```
-   pip install -r requirements.txt
+   pip install poetry
    ```
 
-2. Execute o servidor:
+2. Instale as dependências do projeto:
    ```
-   uvicorn main:app --reload
+   poetry install
    ```
+
+3. Execute o servidor de desenvolvimento:
+   ```
+   poetry shell
+   task run
+   ```
+
+Acesse a documentação interativa em [http://localhost:8000/docs](http://localhost:8000/docs).
 
 ## Estrutura do projeto
 
 - `main.py`: Ponto de entrada da aplicação.
 - `app/`: Módulos da API.
-- `pyproject.toml`: Dependências do projeto.
+- `pyproject.toml`: Dependências e configurações do projeto.
 
 ## Endpoints
 
